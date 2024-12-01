@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help the Homeless</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #ff7eb3, #ff758c);
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        nav {
+            background-color: #ff4766;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        section h2 {
+            color: #ff4766;
+            font-size: 2.2rem;
+            border-bottom: 3px solid #ff7eb3;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        .about-section {
+            background: linear-gradient(90deg, #00c9ff, #92fe9d);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        .about-section ul {
+            padding-left: 20px;
+        }
+        .about-section ul li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        .donate-btn {
+            display: inline-block;
+            background-color: #ff4766;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .donate-btn:hover {
+            background-color: #e63950;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        .payment-links a {
+            color: #ff4766;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .payment-links a:hover {
+            color: #e63950;
+        }
+        .contact-section form {
+            margin-top: 20px;
+        }
+        .contact-section input, 
+        .contact-section textarea, 
+        .contact-section button {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-section button {
+            background-color: #ff4766;
+            color: white;
+            cursor: pointer;
+        }
+        .contact-section button:hover {
+            background-color: #e63950;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Help the Homeless</h1>
+        <p>Your kindness can make a difference</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#help">How to Help</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>
+            Hi, I am <strong>Banoth Suresh</strong>, an M.Tech student at <strong>VNR VJIET</strong>. 
+            I work part-time as a delivery boy for Swiggy. During my night shifts, I noticed many people sleeping on the roadside without blankets or food. 
+            Their plight moved me, and I decided to take action.
+        </p>
+        <p>
+            I created this initiative to provide warmth, food, and hope to those in need. 
+            With your support, we can make a real difference and bring smiles to many faces. Let’s stand together and help the homeless.
+        </p>
+        <ul>
+            <li><strong>Our Goal:</strong> To distribute essential items like blankets and food to those who need them most.</li>
+            <li><strong>Our Promise:</strong> Every contribution goes directly toward helping the homeless.</li>
+            <li><strong>Our Belief:</strong> Together, we can change lives and build a better community.</li>
+        </ul>
+    </section>
+    <section id="help">
+        <h2>How You Can Help</h2>
+        <p>Every contribution, big or small, makes an impact:</p>
+        <ul>
+            <li>₹500: Provides food for 5 people</li>
+            <li>₹1000: Distributes blankets to 3 individuals</li>
+            <li>₹2000: Expands our reach to more people in need</li>
+        </ul>
+        <a href="#donate" class="donate-btn">Contribute Now</a>
+    </section>
+    <section id="donate">
+        <h2>Donate Now</h2>
+        <p>Your support matters. Choose your preferred payment method:</p>
+        <ul class="payment-links">
+            <li><strong>Ppay,gpay, Paytm: 9100875692 </strong></li>
+            <li><strong>UPI ID:</strong> <a href="https://upi://pay?pa=9100875692@upi&pn=Banoth%20Suresh&am=500&cu=INR">9100875692@upi</a></li> 
+            <li><strong>QR Code:</strong> <a href="/photo/QR Code.jpg" target="_blank">Scan QR Code</a></li>
+            <li>
+                <!-- Added image under QR code -->
+                <img src="QR Code1.jpg" alt="QR Code" style="width: 200px; margin-top: 10px; border-radius: 8px;">
+            </li>
+            <li><strong>Bank Transfer:</strong>
+                <ul>
+                    <li><strong>Account Name:</strong> Help the Homeless Foundation</li>
+                    <li><strong>Account Number:</strong>38739642198 </li>
+                    <li><strong>IFSC Code:</strong> SBIN0021367 </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us with any questions or suggestions:</p>
+        <p><strong>Email:</strong> banothsuresh2024@gmail.com</p>
+        <p><strong>Phone:</strong> +91 9100875692</p>
+    
+    </section>
+    <footer>
+        <p>© 2024 Help the Homeless. Together, we can create a brighter tomorrow.</p>
+    </footer>
+</body>
+</html>
